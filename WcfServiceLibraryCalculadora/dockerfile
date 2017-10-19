@@ -1,0 +1,11 @@
+FROM microsoft/wcf
+
+RUN mkdir C:\wcftallerdocker
+
+RUN powershell -NoProfile -Command \
+    Import-module IISAdministration; \
+    New-IISSite -Name "wcftallerdocker" -PhysicalPath C:\wcftallerdocker -BindingInformation "*:83:"
+
+EXPOSE 83
+
+ADD wcfCalculadora/ /wcftallerdocker

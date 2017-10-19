@@ -1,0 +1,9 @@
+<publishData>
+  <publishTarget publishUrl="C:\wcfCalculadora\">
+    <file relUrl="bin/WcfServiceLibraryCalculadora.dll.config" publishTime="10/16/2017 19:34:01" />
+    <file relUrl="WcfServiceLibraryCalculadora.ServiceCalculadora.svc" publishTime="10/17/2017 23:05:11" />
+    <file relUrl="bin/WcfServiceLibraryCalculadora.pdb" publishTime="10/17/2017 23:04:43" />
+    <file relUrl="bin/WcfServiceLibraryCalculadora.dll" publishTime="10/17/2017 23:04:43" />
+    <file relUrl="Web.config" publishTime="10/16/2017 19:34:01" />
+  </publishTarget>
+</publishData>
