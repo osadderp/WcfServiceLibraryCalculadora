@@ -32,3 +32,5 @@ http://172.23.214.9:83/WcfServiceLibraryCalculadora.ServiceCalculadora.svc?wsdl
 Esta ruta del servicio se puede consumir con SoapUI para su porsterior verificacion o cualquier otro de su preferencia.
 
 Ejecutar el archivo stop.sh para detener la ejecucion y posterior eliminacion de esta.
+
+El servico de calculadora suma dos numeros enteros.
